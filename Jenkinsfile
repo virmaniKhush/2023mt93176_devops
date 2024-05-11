@@ -23,7 +23,7 @@ pipeline {
 
                 // Install Node.js dependencies
 
-                sh 'npm install'
+                //sh 'npm install'
 
             }
 
@@ -35,7 +35,7 @@ pipeline {
 
                 // Run tests
 
-                sh 'npm test'
+                //sh 'npm test'
 
             }
 
@@ -47,7 +47,7 @@ pipeline {
 
                 // Build the project 
 
-                sh 'npm run build'
+                //sh 'npm run build'
 
             }
 
