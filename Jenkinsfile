@@ -11,7 +11,7 @@ pipeline {
 
                 // Checkout code from Git repository
 
-                git 'https://github.com/virmaniKhush/2023mt93176_devops.git'
+                git branch: 'main', credentialsId: 'kv_b2', url: 'https://github.com/virmaniKhush/2023mt93176_devops.git'
 
             }
 
